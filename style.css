@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.navi {
+  background-color: black;
+  height: 200px;
+  max-width: 1900px;
+  background-color: hsla(295, 60%, 31%, 0.1);
+}
+
+.navi ul {
+  padding: 30px;
+  gap: 40px;
+  display: flex;
+  float: right;
+  z-index: 100;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+.bckgr img {
+  position: relative;
+  bottom: 130px;
+}
+
+.image-nav {
+  background-image: url(./imgs/background-img.webp);
+}
+
+.image-nav {
+  background: url("./imgs/background-img.webp");
+  min-height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 900px;
+}
+
+nav ul {
+  display: flex;
+}
+
+.links {
+  float: right;
+  display: flex;
+  padding-top: 30px;
+}
+
+nav {
+  height: 100px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+nav .links {
+  color: rgba(255, 255, 255, 0.4666666667);
+  float: right;
+  margin-right: 60px;
+  padding-top: 30px;
+  text-decoration: none;
+}
+
+.nav .links:hover {
+  color: white;
+}
+
+input {
+  float: right;
+  margin-top: 30px;
+  display: flex;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 5px;
+  border: none;
+  margin-right: 20px;
+  border-bottom: 1px solid white !important;
+}
+
+.links i {
+  margin-right: 10px;
+  padding-top: 4px;
+}
+
+nav a:hover {
+  color: white;
+}
+
+.midtext {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  position: relative;
+  top: 250px;
+}
+
+.rightside {
+  float: left;
+  color: #ffffff;
+  font-size: 35px;
+  margin-inline: 40px;
+  padding-top: 20px;
+  text-decoration: none;
+}
+
+.rightside span {
+  color: grey;
+}
+
+.midtext button {
+  font-size: 25px;
+  padding: 10px 30px;
+  background-color: transparent;
+  color: white;
+  border: 3px solid white;
+}
+
+.rightabs {
+  position: absolute;
+  right: 0px;
+  bottom: 400px;
+  background-color: black;
+  width: 100px;
+  height: 150px;
+  font-size: 25px;
+}
+
+#ops1 {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.fbytig {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fbytig i {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1243px) {
+  nav .links {
+    display: none;
+  }
+}
+@media screen and (max-width: 531px) {
+  nav input {
+    display: none;
+  }
+  .midtext {
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=style.css.map */
